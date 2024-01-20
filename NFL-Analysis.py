@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("C:\\Users\\emily\\Downloads\\team_stats_2003_2023.csv")
+df = pd.read_csv("local_path_to\\team_stats_2003_2023.csv")
 
 bills_data = (df[df["team"] == "Buffalo Bills"])
 
